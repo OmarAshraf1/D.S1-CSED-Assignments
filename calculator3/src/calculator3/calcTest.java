@@ -23,10 +23,11 @@ class calcTest {
 		
 		
 		//Divide method test
-		assertEquals(0.25,test.divide(1,4));
+		
 		
 		try {
 		test.divide(5, 0) ;
+		assertEquals(0.25,test.divide(1,4));	
 		assertEquals(1,test.divide(5, 5));
 		assertEquals(2.5,test.divide(10,4));
 		assertEquals(7.5,test.divide(15,2 ));
