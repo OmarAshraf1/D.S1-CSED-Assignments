@@ -1,5 +1,7 @@
 package eg.edu.alexu.csd.datastructure.queue.csxx_csyy_cszz;
 
+import eg.edu.alexu.csd.datastructure.queue.ILinkedBased;
+import eg.edu.alexu.csd.datastructure.queue.IQueue;
 
 public class ArrayQueue implements IQueue, IArrayBased {
 	int front;
