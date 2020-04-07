@@ -16,9 +16,10 @@ public class QueueLL implements ILinkedBased,IQueue {
 	@Override
 	public Object dequeue() {
 		
+		Object x = q.get(0) ; 
 		q.remove(0);
 		
-		return q.get(0) ;
+		return x ;
 		
 	}
 	@Override
