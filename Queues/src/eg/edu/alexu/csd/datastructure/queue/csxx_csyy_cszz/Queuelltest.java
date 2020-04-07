@@ -14,7 +14,7 @@ class Queuelltest {
 		}
 		q.dequeue() ;
 		q.dequeue() ;
-		assertEquals(3, q.dequeue());
+		assertEquals(2, q.dequeue());
 	}
 
 }
